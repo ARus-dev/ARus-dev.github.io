@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Гостиницы</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <div class="header__top">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__item"><a class="header__link" href="#">Информация</a></li>
+                        <li class="header__item"><a class="header__link" href="#">Фото и видео</a></li>
+                    </ul>
+                    <div class="header__logo"><a class="header__link" href="/"><svg class="icon icon_logo">
+                                <use href="img/svg/sprite.svg#logo"></use>
+                            </svg></a></div>
+                    <ul class="header__menu">
+                        <li class="header__item"><a class="header__link" href="#">Карта штата</a></li>
+                        <li class="header__item"><a class="header__link header__link_active">Гостиницы</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="wrapper">
+                <div class="sort section__sort">
+                    <h2 class="section__title section__title_sort">Найдено: <span class="sort__num">3</span></h2>
+                    <div class="sort__block">
+                        <h3 class="sort__title">Сортировка:</h3>
+                        <div class="sort__methods"><button class="sort__method sort__method_price">По цене </button><button class="sort__method sort__method_type">По типу </button><button class="sort__method sort__method_rating">По рейтингу</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="wrapper">
+                <div class="catalog"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <div class="footer__contacts">
+                    <p class="footer__text">#visitSEDONA</p>
+                    <p class="footer__text">ТЕЛ:<a href="tel: +74956660166">+7(495) 666-01-66</a></p>
+                </div>
+                <div class="soc footer__soc">
+                    <div class="soc__item"><a class="soc__link" href="#"> <svg class="icon icon_soc">
+                                <use href="img/svg/sprite.svg#twitter"></use>
+                            </svg></a></div>
+                    <div class="soc__item"><a class="soc__link" href="#"> <svg class="icon icon_soc">
+                                <use href="img/svg/sprite.svg#facebook"></use>
+                            </svg></a></div>
+                    <div class="soc__item"><a class="soc__link" href="#"> <svg class="icon icon_soc">
+                                <use href="img/svg/sprite.svg#youtube"></use>
+                            </svg></a></div>
+                </div>
+                <div class="footer__logo">
+                    <p>Website by</p><a href="https://htmlacademy.ru/"> <svg class="icon icon_html-academy">
+                            <use href="img/svg/sprite.svg#logo-htmlacademy"></use>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/catalog.min.js"></script>
+</body>
+
+</html>
